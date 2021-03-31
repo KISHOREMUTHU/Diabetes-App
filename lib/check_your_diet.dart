@@ -24,7 +24,7 @@ class _DietCheckState extends State<DietCheck> {
             children:[
               SizedBox(height:20),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(12.0),
                 child: Container(
                   height : 300,
                   width :double.infinity,
@@ -37,11 +37,11 @@ class _DietCheckState extends State<DietCheck> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(12.0),
                 child: Container (
                   decoration : BoxDecoration(
                     borderRadius:BorderRadius.circular(25.0 ),
-                    color : Colors.amber,
+                    color : Colors.amber[300],
 
                   ),
                   height : 380,
@@ -58,7 +58,7 @@ class _DietCheckState extends State<DietCheck> {
                       SizedBox(height : 10),
                       Text ('BMI Less than 18.5',
                         style : TextStyle(
-                          color :Colors.grey,
+                          color :Colors.white,
                           fontSize:15,
                           fontWeight:FontWeight.bold,
                         ),),
@@ -97,11 +97,11 @@ class _DietCheckState extends State<DietCheck> {
               ),
               SizedBox(height : 20),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(12.0),
                 child: Container (
                   decoration : BoxDecoration(
                     borderRadius:BorderRadius.circular(25.0 ),
-                    color : Colors.green,
+                    color : Colors.green[300],
 
                   ),
                   height : 300,
@@ -118,7 +118,7 @@ class _DietCheckState extends State<DietCheck> {
                       SizedBox(height : 10),
                       Text ('BMI Between 18.5 To 24.9',
                         style : TextStyle(
-                          color :Colors.blueGrey,
+                          color :Colors.white,
                           fontSize:15,
                           fontWeight:FontWeight.bold,
                         ),),
@@ -147,11 +147,11 @@ class _DietCheckState extends State<DietCheck> {
               SizedBox(height : 20),
 
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(12.0),
                 child: Container (
                   decoration : BoxDecoration(
                     borderRadius:BorderRadius.circular(25.0 ),
-                    color : Colors.deepOrangeAccent,
+                    color : Colors.orange[300],
 
                   ),
                   height : 380,
@@ -168,7 +168,7 @@ class _DietCheckState extends State<DietCheck> {
                       SizedBox(height : 10),
                       Text ('BMI Between 25.0 To 29.9',
                         style : TextStyle(
-                          color :Colors.grey,
+                          color :Colors.white,
                           fontSize:15,
                           fontWeight:FontWeight.bold,
                         ),),
@@ -208,11 +208,11 @@ class _DietCheckState extends State<DietCheck> {
               SizedBox(height : 20),
 
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(12.0),
                 child: Container (
                   decoration : BoxDecoration(
                     borderRadius:BorderRadius.circular(25.0 ),
-                    color : Colors.red[900],
+                    color : Colors.redAccent[200],
 
                   ),
                   height : 380,
@@ -229,7 +229,7 @@ class _DietCheckState extends State<DietCheck> {
                       SizedBox(height : 10),
                       Text ('BMI Greater than 30',
                         style : TextStyle(
-                          color :Colors.grey,
+                          color :Colors.white,
                           fontSize:15,
                           fontWeight:FontWeight.bold,
                         ),),

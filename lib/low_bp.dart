@@ -78,98 +78,107 @@ class _LowBpState extends State<LowBp> {
               ),
             ),
             SizedBox(height : 10),
-            Container(
-              height : 200,
-              decoration : BoxDecoration(
-                color : Colors .yellowAccent,
-                borderRadius: BorderRadius.circular(40),
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Container(
+                height : 220,
+                decoration : BoxDecoration(
+                  color : Colors .amber[300],
+                  borderRadius: BorderRadius.circular(40),
 
-              ),
-              padding : EdgeInsets.all(20),
-              child : Column (
-                crossAxisAlignment : CrossAxisAlignment.start,
-                children : [
+                ),
+                padding : EdgeInsets.all(20),
+                child : Column (
+                  crossAxisAlignment : CrossAxisAlignment.start,
+                  children : [
 
-                  Text('CAUSES',
-                    style : TextStyle(
-                      fontSize :20,
-                      fontWeight:FontWeight.bold,
-                    ),),
-                  SizedBox(height : 10),
-                  Text ('    1)  Getting up after you sit or lie down.'),
-                  Text ('    2)  Standing for a long time'),
-                  Text ('    3)  Not drinking enough fluids (dehydration).'),
-                  Text ('    4)  Medicines, such as high blood pressure medicine or other heart medicines.'),
-                  Text ('    5)  Health problems such as thyroid disease, severe infection, bleeding in the intestines, or heart problems.'),
+                    Text('CAUSES',
+                      style : TextStyle(
+                        fontSize :20,
+                        fontWeight:FontWeight.bold,
+                      ),),
+                    SizedBox(height : 10),
+                    Text ('    1)  Getting up after you sit or lie down.'),
+                    Text ('    2)  Standing for a long time'),
+                    Text ('    3)  Not drinking enough fluids (dehydration).'),
+                    Text ('    4)  Medicines, such as high blood pressure medicine or other heart medicines.'),
+                    Text ('    5)  Health problems such as thyroid disease, severe infection, bleeding in the intestines, or heart problems.'),
 
-                ],
-              ),
-            ),
-            SizedBox (height :20),
-            Container(
-              height : 220,
-              decoration : BoxDecoration(
-                color : Colors .redAccent,
-                borderRadius: BorderRadius.circular(40),
-              ),
-              padding : EdgeInsets.all(20),
-              child : Column (
-                crossAxisAlignment : CrossAxisAlignment.start,
-
-                children : [
-
-                  Text('RISK FACTORS',
-                    style : TextStyle(
-                      fontSize :20,
-                      fontWeight:FontWeight.bold,
-                    ),),
-                  SizedBox(height : 10),
-                  Text ('    1)  Dizziness or lightheadedness.'),
-                  Text ('    2)  Nausea.'),
-                  Text ('    3)  Fainting (syncope)'),
-                  Text ('    4)  Dehydration and unusual thirst.'),
-                  Text ('    5)  Dehydration can sometimes cause blood pressure to drop.'),
-                  Text ('    6)  Lack of concentration.'),
-                  Text ('    7)  Blurred vision.'),
-
-
-                ],
+                  ],
+                ),
               ),
             ),
             SizedBox (height :20),
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Container(
+                height : 220,
+                decoration : BoxDecoration(
+                  color : Colors.redAccent,
+                  borderRadius: BorderRadius.circular(40),
+                ),
+                padding : EdgeInsets.all(20),
+                child : Column (
+                  crossAxisAlignment : CrossAxisAlignment.start,
 
-            Container(
-              height : 250,
-              width : double.infinity,
-              decoration : BoxDecoration(
-                color : Colors .greenAccent,
-                borderRadius: BorderRadius.circular(40),
+                  children : [
 
+                    Text('RISK FACTORS',
+                      style : TextStyle(
+                        fontSize :20,
+                        fontWeight:FontWeight.bold,
+                      ),),
+                    SizedBox(height : 10),
+                    Text ('    1)  Dizziness or lightheadedness.'),
+                    Text ('    2)  Nausea.'),
+                    Text ('    3)  Fainting (syncope)'),
+                    Text ('    4)  Dehydration and unusual thirst.'),
+                    Text ('    5)  Dehydration can sometimes cause blood pressure to drop.'),
+                    Text ('    6)  Lack of concentration.'),
+                    Text ('    7)  Blurred vision.'),
+
+
+                  ],
+                ),
               ),
-              padding : EdgeInsets.all(20),
-              child : Column (
-                crossAxisAlignment : CrossAxisAlignment.start,
+            ),
+            SizedBox (height :20),
 
-                children : [
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Container(
+                height : 230,
+                width : double.infinity,
+                decoration : BoxDecoration(
+                  color : Colors .greenAccent,
+                  borderRadius: BorderRadius.circular(40),
 
-                  Text('DIET PRACTICES',
-                    style : TextStyle(
-                      fontSize :20,
-                      fontWeight:FontWeight.bold,
-                    ),),
-                  SizedBox(height : 10),
-                  Text ('    1)  Drink Plenty of Fluids.'),
-                  Text ('    2)  Eat Salty Foods.'),
-                  Text ('    3)  Drink Caffeine.'),
-                  Text ('    4)  Boost Your B12 Intake.'),
-                  Text ('    5)  Fill Up On Folate'),
-                  Text ('    6)  Cut Back On Carbs'),
-                  Text ('    7)  Reduce Meal Size'),
-                  Text ('    8)  Easy On The Alcohol.'),
+                ),
+                padding : EdgeInsets.all(20),
+                child : Column (
+                  crossAxisAlignment : CrossAxisAlignment.start,
+
+                  children : [
+
+                    Text('DIET PRACTICES',
+                      style : TextStyle(
+                        fontSize :20,
+                        fontWeight:FontWeight.bold,
+                      ),),
+                    SizedBox(height : 10),
+                    Text ('    1)  Drink Plenty of Fluids.'),
+                    Text ('    2)  Eat Salty Foods.'),
+                    Text ('    3)  Drink Caffeine.'),
+                    Text ('    4)  Boost Your B12 Intake.'),
+                    Text ('    5)  Fill Up On Folate'),
+                    Text ('    6)  Cut Back On Carbs'),
+                    Text ('    7)  Reduce Meal Size'),
+                    Text ('    8)  Easy On The Alcohol.'),
 
 
 
-                ],
+                  ],
+                ),
               ),
             ),
 

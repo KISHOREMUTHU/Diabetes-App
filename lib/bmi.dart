@@ -251,7 +251,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
       }
       if (finalresult >=30.0 ) {
         final snackbar = SnackBar(
-          content: Text("You are underweight . See our diet suggestions to improve your BMI",
+          content: Text("You are too obese . See our diet suggestions to improve your BMI",
             style : TextStyle (
               fontSize : 18.0,
               color : Colors.white,

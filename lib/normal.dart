@@ -66,38 +66,41 @@ class _NormalState extends State<Normal> {
             ),
             SizedBox(height : 20),
 
-            Container(
-              height : 250,
-              width : double.infinity,
-              decoration : BoxDecoration(
-                color : Colors .greenAccent,
-                borderRadius: BorderRadius.circular(40),
+            Padding(
+              padding: const EdgeInsets.all(11.0),
+              child: Container(
+                height : 290,
+                width : double.infinity,
+                decoration : BoxDecoration(
+                  color : Colors .greenAccent,
+                  borderRadius: BorderRadius.circular(40),
 
-              ),
-              padding : EdgeInsets.all(20),
-              child : Column (
-                crossAxisAlignment : CrossAxisAlignment.start,
+                ),
+                padding : EdgeInsets.all(20),
+                child : Column (
+                  crossAxisAlignment : CrossAxisAlignment.start,
 
-                children : [
+                  children : [
 
-                  Text('DIET PRACTICES TO MAINTAIN ',
-                    style : TextStyle(
-                      fontSize :20,
-                      fontWeight:FontWeight.bold,
-                    ),),
-                  SizedBox(height : 10),
-                  Text ('    1)  Eat more fruits and vegetables and other high-fiber foods.'),
-                  Text ('    2)  Choose foods that are low in saturated fat and trans fat.'),
-                  Text ('    3)  Eat at least two servings of fish each week. Oily fish, which contain omega-3 fatty acids, are best.'),
-                  Text ('    4)  Limit sodium, alcohol, and added sugar.'),
-                  Text ('    5)  Fill Up On Folate'),
-                  Text ('    6)  If your BP level is nearing 90 or above 135 ,please strictly follow this diet as there is a slight chance of getting into diabetes or low blood pressure '),
-
-
+                    Text('DIET PRACTICES TO MAINTAIN ',
+                      style : TextStyle(
+                        fontSize :20,
+                        fontWeight:FontWeight.bold,
+                      ),),
+                    SizedBox(height : 10),
+                    Text ('    1)  Eat more fruits and vegetables and other high-fiber foods.'),
+                    Text ('    2)  Choose foods that are low in saturated fat and trans fat.'),
+                    Text ('    3)  Eat at least two servings of fish each week. Oily fish, which contain omega-3 fatty acids, are best.'),
+                    Text ('    4)  Limit sodium, alcohol, and added sugar.'),
+                    Text ('    5)  Fill Up On Folate'),
+                    Text ('    6)  If your BP level is nearing 90 or above 135 ,please strictly follow this diet as there is a slight chance of getting into diabetes or low blood pressure '),
 
 
 
-                ],
+
+
+                  ],
+                ),
               ),
             ),
 

@@ -79,101 +79,110 @@ class _HighBpState extends State<HighBp> {
               ),
             ),
             SizedBox(height : 10),
-            Container(
-              height : 240,
-              decoration : BoxDecoration(
-                color : Colors .yellowAccent,
-                borderRadius: BorderRadius.circular(40),
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Container(
+                height : 240,
+                decoration : BoxDecoration(
+                  color : Colors.amber[300],
+                  borderRadius: BorderRadius.circular(40),
 
-              ),
-              padding : EdgeInsets.all(20),
-              child : Column (
-                crossAxisAlignment : CrossAxisAlignment.start,
-                children : [
+                ),
+                padding : EdgeInsets.all(20),
+                child : Column (
+                  crossAxisAlignment : CrossAxisAlignment.start,
+                  children : [
 
-                  Text('CAUSES',
-                    style : TextStyle(
-                      fontSize :20,
-                      fontWeight:FontWeight.bold,
-                    ),),
-                  SizedBox(height : 10),
-                  Text ('    1)  Weight. The more fatty tissue you have, the more resistant your cells become to insulin.'),
-                  Text ('    2)  Inactivity.'),
-                  Text ('    3)  Family history'),
-                  Text ('    4)  Race or ethnicity. '),
+                    Text('CAUSES',
+                      style : TextStyle(
+                        fontSize :20,
+                        fontWeight:FontWeight.bold,
+                      ),),
+                    SizedBox(height : 10),
+                    Text ('    1)  Weight. The more fatty tissue you have, the more resistant your cells become to insulin.'),
+                    Text ('    2)  Inactivity.'),
+                    Text ('    3)  Family history'),
+                    Text ('    4)  Race or ethnicity. '),
 
-                  Text ('    5)  Sedentary lifestyle.'),
-                  Text ('    6)  Being obese or overweight.'),
-                  Text ('    7)  Elevated levels of triglycerides and low levels of "good" cholesterol (HDL)'),
+                    Text ('    5)  Sedentary lifestyle.'),
+                    Text ('    6)  Being obese or overweight.'),
+                    Text ('    7)  Elevated levels of triglycerides and low levels of "good" cholesterol (HDL)'),
 
-                ],
-              ),
-            ),
-            SizedBox (height :20),
-            Container(
-              height : 220,
-              decoration : BoxDecoration(
-                color : Colors .redAccent,
-                borderRadius: BorderRadius.circular(40),
-              ),
-              padding : EdgeInsets.all(20),
-              child : Column (
-                crossAxisAlignment : CrossAxisAlignment.start,
-
-                children : [
-
-                  Text('RISK FACTORS',
-                    style : TextStyle(
-                      fontSize :20,
-                      fontWeight:FontWeight.bold,
-                    ),),
-                  SizedBox(height : 10),
-                  Text ('    1)  High Chances of Stroke.'),
-                  Text ('    2)  Lack of Consciousness'),
-                  Text ('    3)  Extreme thirst'),
-                  Text ('    4)  Visual Disturbances'),
-                  Text ('    5)  Risk of Heart Disease, Infections , Pancreas Malfunctions and Gastroparasis'),
-                  Text ('    6)  Nerve and Blood Vessel Damage'),
-                  Text ('    7)  Excessive Urination'),
-
-
-                ],
+                  ],
+                ),
               ),
             ),
             SizedBox (height :20),
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Container(
+                height : 220,
+                decoration : BoxDecoration(
+                  color : Colors .redAccent,
+                  borderRadius: BorderRadius.circular(40),
+                ),
+                padding : EdgeInsets.all(20),
+                child : Column (
+                  crossAxisAlignment : CrossAxisAlignment.start,
 
-            Container(
-              height : 250,
-              width : double.infinity,
-              decoration : BoxDecoration(
-                color : Colors .greenAccent,
-                borderRadius: BorderRadius.circular(40),
+                  children : [
 
+                    Text('RISK FACTORS',
+                      style : TextStyle(
+                        fontSize :20,
+                        fontWeight:FontWeight.bold,
+                      ),),
+                    SizedBox(height : 10),
+                    Text ('    1)  High Chances of Stroke.'),
+                    Text ('    2)  Lack of Consciousness'),
+                    Text ('    3)  Extreme thirst'),
+                    Text ('    4)  Visual Disturbances'),
+                    Text ('    5)  Risk of Heart Disease, Infections , Pancreas Malfunctions and Gastroparasis'),
+                    Text ('    6)  Nerve and Blood Vessel Damage'),
+                    Text ('    7)  Excessive Urination'),
+
+
+                  ],
+                ),
               ),
-              padding : EdgeInsets.all(20),
-              child : Column (
-                crossAxisAlignment : CrossAxisAlignment.start,
+            ),
+            SizedBox (height :20),
 
-                children : [
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Container(
+                height : 250,
+                width : double.infinity,
+                decoration : BoxDecoration(
+                  color : Colors .greenAccent,
+                  borderRadius: BorderRadius.circular(40),
 
-                  Text('DIET PRACTICES',
-                    style : TextStyle(
-                      fontSize :20,
-                      fontWeight:FontWeight.bold,
-                    ),),
-                  SizedBox(height : 10),
-                  Text ('    1)  Raw, Cooked, or Roasted Vegetables. These add color, flavor, and texture to a meal.'),
-                  Text ('    2)  Greens. '),
-                  Text ('    3)  Protein'),
-                  Text ('    4)  Flavorful, Low-calorie Drinks.'),
-                  Text ('    5)  Melon or Berries'),
-                  Text ('    6)  A Very Little Fat'),
-                  Text ('    7)  Whole-grain, Higher-fiber Foods'),
+                ),
+                padding : EdgeInsets.all(20),
+                child : Column (
+                  crossAxisAlignment : CrossAxisAlignment.start,
+
+                  children : [
+
+                    Text('DIET PRACTICES',
+                      style : TextStyle(
+                        fontSize :20,
+                        fontWeight:FontWeight.bold,
+                      ),),
+                    SizedBox(height : 10),
+                    Text ('    1)  Raw, Cooked, or Roasted Vegetables. These add color, flavor, and texture to a meal.'),
+                    Text ('    2)  Greens. '),
+                    Text ('    3)  Protein'),
+                    Text ('    4)  Flavorful, Low-calorie Drinks.'),
+                    Text ('    5)  Melon or Berries'),
+                    Text ('    6)  A Very Little Fat'),
+                    Text ('    7)  Whole-grain, Higher-fiber Foods'),
 
 
 
 
-                ],
+                  ],
+                ),
               ),
             ),
 
